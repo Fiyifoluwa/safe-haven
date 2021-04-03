@@ -60,6 +60,30 @@ ul {
   list-style: none;
 }
 
+.tag-property {
+  font-size: 13px;
+  color: #00b569;
+  padding: 7px;
+  background: rgba(0, 181, 105, 0.15);
+  border-radius: 5px;
+}
+
+.tag-housing {
+  font-size: 13px;
+  color: #7800d2;
+  padding: 7px;
+  background: rgba(120, 0, 210, 0.15);
+  border-radius: 5px;
+}
+
+.tag-mortgage {
+  font-size: 13px;
+  color: #f95b02;
+  padding: 7px;
+  background: rgba(249, 91, 2, 0.15);
+  border-radius: 5px;
+}
+
 /* navigation */
 nav {
   display: flex;
@@ -398,7 +422,7 @@ nav ul {
 /* testimonials */
 .test-container {
   margin-top: 140px;
-  margin-bottom: 160px;
+  margin-bottom: 369px;
 }
 
 .test-head {
@@ -436,8 +460,6 @@ nav ul {
 }
 
 .test-text {
-  position: absolute;
-  left: 0;
   margin-left: 190px;
   margin-top: 115px;
 }
@@ -466,23 +488,6 @@ nav ul {
   color: #ffffff;
 }
 
-/* .test-group p {
-  font-size: 17px;
-  line-height: 25px;
-  color: #000000;
-  width: 437px;
-  height: 100px;
-  max-width: 1200px;
-  overflow: hidden;
-}
-
-.purple {
-  background: #9b51e0;
-  opacity: 0.3;
-  width: 912px;
-  height: 420px;
-} */
-
 .arrow-and-image {
   position: absolute;
   right: 0;
@@ -496,4 +501,67 @@ nav ul {
 
 .arrow-and-image div:first-of-type img:first-of-type {
   margin-right: 20px;
+}
+
+/* blog posts */
+.blog-head {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.blog-head h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #25033e;
+}
+
+.blog-head a {
+  font-size: 17px;
+  line-height: 26px;
+  color: #25033e;
+}
+
+.blog-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+.blog-card {
+  width: 373px;
+  height: 384px;
+  border: 0.5px solid #afafaf;
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.blog-card img {
+  padding-top: 9px;
+  padding-bottom: 15px;
+}
+
+.blog-title {
+  font-size: 17px;
+  line-height: 23px;
+  text-align: left;
+  margin-left: 9px;
+  color: #25033e;
+}
+
+.blog-deets div {
+  display: flex;
+  justify-content: space-between;
+  margin: 9px 11px;
+}
+
+.blog-deets div p:last-of-type {
+  font-size: 14px;
+  line-height: 17px;
+  color: #665275;
 }

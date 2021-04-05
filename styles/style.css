@@ -565,3 +565,87 @@ nav ul {
   line-height: 17px;
   color: #665275;
 }
+
+/* download */
+
+.mobile {
+  margin-top: 155px;
+  margin-bottom: 210px;
+  width: 1300px;
+  height: 360px;
+  background: url(../images/mobile/bg-banner.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobile div {
+  margin: 58px auto 51px 90px;
+}
+
+.mobile div h1 {
+  max-width: 504px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #fff;
+}
+
+.mobile div p {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 17px;
+  color: #b47ddf;
+}
+
+.mobile div img {
+  margin-right: 25px;
+  margin-top: 17px;
+}
+
+/* footer */
+.footer {
+  /* margin-top: 210px; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer div {
+  display: flex;
+}
+
+.footer .head {
+  font-weight: bold;
+  font-size: 17px;
+  color: #25033e;
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  margin-right: 67px;
+}
+
+.footer div li {
+  margin-bottom: 20px;
+}
+
+.footer li a {
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #665275;
+}
+
+.footer-footer {
+  text-align: center;
+  margin-top: 52px;
+  padding-bottom: 54px;
+  font-size: 13px;
+  color: #c7afd8;
+}
+
+.footer-footer a {
+  font-size: 13px;
+  color: #c7afd8;
+}

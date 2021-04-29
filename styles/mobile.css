@@ -6,8 +6,8 @@ body {
     url("../images/img/hero.png");
   height: 77vh;
   background-repeat: no-repeat;
-  background-position: cover;
-  background-size: contain;
+  background-position: top center;
+  background-size: cover;
 }
 
 /*
@@ -48,10 +48,10 @@ nav img {
 }
 
 .filters {
-  margin-top: 2rem;
+  margin: 2rem auto 1.2rem auto;
   flex-direction: column;
   width: 90%;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   align-items: flex-start;
 }
 
@@ -78,9 +78,9 @@ nav img {
 /* listings */
 
 .listings-container {
-  margin-top: 8rem;
+  margin-top: 1rem;
   width: 90%;
-  margin: 6rem auto;
+  margin: 5rem auto;
 }
 
 .listings-head h1 {
@@ -129,6 +129,11 @@ nav img {
 /* about */
 .about-container {
   margin-top: -3rem;
+  background: url("/images/icons/subtract.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  padding-bottom: 2rem;
 }
 
 .about-head {
@@ -162,6 +167,30 @@ nav img {
 .second-p {
   width: auto;
   height: auto;
+}
+
+.about-metrics {
+  justify-content: space-around;
+  margin-top: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.about-metrics .numbers {
+  font-size: 2.8rem;
+  margin-bottom: 0.9rem;
+  line-height: 3rem;
+}
+
+/* testimonials */
+.test-container {
+  margin-top: 4rem;
+  margin-bottom: 15rem;
+}
+
+.test-head {
+  width: 90%;
+  margin: auto;
+  font-size: 2rem;
 }
 
 /* ------------------------------------------------------------------- 

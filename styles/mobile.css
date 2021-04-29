@@ -126,6 +126,44 @@ nav img {
   font-size: 0.65rem;
 }
 
+/* about */
+.about-container {
+  margin-top: -3rem;
+}
+
+.about-head {
+  width: 90%;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.about {
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.about-grid {
+  display: none;
+}
+
+.about-info,
+.about-metrics p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.first-p {
+  width: auto;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.second-p {
+  width: auto;
+  height: auto;
+}
+
 /* ------------------------------------------------------------------- 
  * ## mobile menu toggle
  * ------------------------------------------------------------------- */

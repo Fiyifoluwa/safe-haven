@@ -319,13 +319,11 @@ nav ul {
 
 .title p {
   font-size: 1.0625rem;
-  line-height: 1.3125rem;
   color: #25033e;
 }
 
 .title a {
   font-size: 0.8125rem;
-  line-height: 1rem;
   text-decoration: underline;
   color: #25033e;
 }

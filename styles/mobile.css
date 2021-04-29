@@ -72,7 +72,38 @@ nav img {
   flex-direction: column;
   flex: 1;
   border-radius: 2.5rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
+}
+
+/* listings */
+
+.listings-container {
+  margin-top: 8rem;
+  width: 90%;
+  margin: 6rem auto;
+}
+
+.listings-head h1 {
+  font-size: 2rem;
+}
+
+.listings-head a {
+  font-size: 1rem;
+}
+
+.listings-grid {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing-card {
+  width: 90vw;
+  height: 24rem;
+}
+
+.listing-card .listing-img {
+  width: 90%;
 }
 
 /* ------------------------------------------------------------------- 

@@ -226,8 +226,6 @@ nav ul {
 }
 
 .filters div {
-  width: 12.5625rem;
-  height: 3.8125rem;
   background: #7800d2;
   border-radius: 3.125rem;
   margin-right: 0.3125rem;
@@ -236,9 +234,8 @@ nav ul {
 .filters h2 {
   font-weight: bold;
   font-size: 1.0625rem;
-  line-height: 1.3125rem;
   color: #fff;
-  padding: 1.25rem 4.1875rem;
+  padding: 1.45rem 4.1875rem;
 }
 
 /* listings */
@@ -250,6 +247,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  align-items: center;
 }
 
 .listings-head h1 {
@@ -260,7 +258,6 @@ nav ul {
 
 .listings-head a {
   font-size: 1.0625rem;
-  line-height: 1.625rem;
   color: #25033e;
 }
 

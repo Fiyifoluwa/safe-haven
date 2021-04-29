@@ -29,8 +29,8 @@ nav img {
 
 /* Header */
 .header-container {
-  margin-top: 4rem;
-  margin-left: 1rem;
+  margin: 4rem auto auto auto;
+  width: 90%;
 }
 
 .header-content div {
@@ -100,6 +100,7 @@ nav img {
 .listing-card {
   width: 90vw;
   height: 24rem;
+  margin-bottom: 1.625rem;
 }
 
 .listing-card .listing-img {

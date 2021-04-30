@@ -422,7 +422,44 @@ nav ul {
 }
 
 /* testimonials */
-.test-container {
+.test-group {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100vw;
+  margin: auto;
+}
+
+.test-purple {
+  grid-column: 1 / 9;
+  z-index: 2;
+
+  display: flex;
+  align-self: flex-start;
+}
+
+.arrows {
+  display: flex;
+}
+
+.test-text {
+  background: rgba(155, 81, 224, 0.3);
+}
+
+.test-image {
+  grid-column: 6 / -1;
+  margin-top: 50px;
+}
+
+.test-image img {
+  width: 100%;
+}
+
+.test-purple,
+.test-image {
+  grid-row: 1 / 2;
+}
+
+/* .test-container {
   margin-top: 8.75rem;
   margin-bottom: 23.0625rem;
 }
@@ -503,7 +540,7 @@ nav ul {
 
 .arrow-and-image div:first-of-type img:first-of-type {
   margin-right: 1.25rem;
-}
+} */
 
 /* blog posts */
 .blog-head {

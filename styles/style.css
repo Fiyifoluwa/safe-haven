@@ -44,6 +44,7 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 49%;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -422,6 +423,19 @@ nav ul {
 }
 
 /* testimonials */
+.test-container {
+  margin-top: 8rem;
+  /* margin-bottom: 23.0625rem; */
+}
+
+.test-head {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #25033e;
+  margin-bottom: 4.7rem;
+}
+
 .test-group {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -431,7 +445,8 @@ nav ul {
 
 .test-purple {
   grid-column: 1 / 9;
-  z-index: 2;
+  /* z-index: 2; */
+  grid-row: 1 / 5;
 
   display: flex;
   align-self: flex-start;
@@ -443,10 +458,12 @@ nav ul {
 
 .test-text {
   background: rgba(155, 81, 224, 0.3);
+  padding: 115px 340px 107px 190px;
 }
 
 .test-image {
-  grid-column: 6 / -1;
+  grid-column: 7 / -1;
+  grid-row: 2 / 5;
   margin-top: 50px;
 }
 
@@ -454,68 +471,24 @@ nav ul {
   width: 100%;
 }
 
-.test-purple,
-.test-image {
-  grid-row: 1 / 2;
-}
-
-/* .test-container {
-  margin-top: 8.75rem;
-  margin-bottom: 23.0625rem;
-}
-
-.test-head {
-  font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 2.75rem;
-  color: #25033e;
-}
-
-.test-group {
-  margin-top: 4.6875rem;
-  display: flex;
-}
-
-.test-group div {
-  flex: 1;
-}
-
-.purple {
-  position: absolute;
-  left: 0;
-  width: 57rem;
-  height: 26.25rem;
-  background: rgb(155, 81, 224, 0.3);
-  margin-top: 4.6875rem;
-}
-
 .test-group p {
   font-size: 1.0625rem;
   line-height: 1.5625rem;
   color: #000000;
-  width: 27.3125rem;
-  height: 6.25rem;
-  overflow: hidden;
-}
-
-.test-text {
-  margin-left: 11.875rem;
-  margin-top: 7.1875rem;
 }
 
 .test-text h4 {
   margin-top: 2.375rem;
   font-weight: bold;
   font-size: 1.5rem;
-  line-height: 1.5625rem;
   color: #000000;
 }
 
 .test-text p:last-of-type {
   margin-top: 0.625rem;
-  margin-bottom: 10.4375rem;
 }
 
+/*
 .story-btn {
   margin-top: 10.4375rem;
   background: #7800d2;

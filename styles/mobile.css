@@ -311,7 +311,7 @@ nav img {
   font-size: 1rem;
   color: #25033e;
   margin-bottom: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }
 
 .footer ul {
@@ -325,12 +325,12 @@ nav img {
 }
 
 .footer div li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer li a {
   font-size: 0.8rem;
-  line-height: 1.1875rem;
+  line-height: 1rem;
 
   color: #665275;
 }

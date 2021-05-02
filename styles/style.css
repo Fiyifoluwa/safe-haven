@@ -525,6 +525,7 @@ nav ul {
 .blog-head {
   display: flex;
   text-align: center;
+  align-items: center;
   justify-content: space-between;
 }
 

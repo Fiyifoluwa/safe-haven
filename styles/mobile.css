@@ -78,9 +78,8 @@ nav img {
 /* listings */
 
 .listings-container {
-  margin-top: 1rem;
   width: 90%;
-  margin: 5rem auto;
+  margin: 4rem auto;
 }
 
 .listings-head h1 {
@@ -184,6 +183,81 @@ nav img {
 /* testimonials */
 .test-container {
   display: none;
+}
+
+/* blog posts */
+.blog-container {
+  margin-top: 1rem;
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.blog-head h1 {
+  font-size: 2rem;
+}
+
+.blog-head a {
+  font-size: 0.9rem;
+}
+
+.blog-grid {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card {
+  width: 90vw;
+  /* height: 22.5rem; */
+  margin-bottom: 1.625rem;
+}
+
+.listing-card .listing-img {
+  width: 90%;
+  padding-bottom: 0.6rem;
+}
+
+.tags p {
+  font-size: 0.6rem;
+  margin-right: 0.8rem;
+}
+
+.title p {
+  font-size: 0.9rem;
+}
+
+.title a {
+  font-size: 0.65rem;
+}
+
+.address p,
+.phone p {
+  font-size: 0.65rem;
+}
+
+.blog-card img {
+  padding-top: 0.5625rem;
+  padding-bottom: 0.9375rem;
+}
+
+.blog-title {
+  font-size: 1.0625rem;
+  line-height: 1.4375rem;
+  text-align: left;
+  margin-left: 0.5625rem;
+  color: #25033e;
+}
+
+.blog-deets div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5625rem 0.6875rem;
+}
+
+.blog-deets div p:last-of-type {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #665275;
 }
 
 /* ------------------------------------------------------------------- 

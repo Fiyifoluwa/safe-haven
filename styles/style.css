@@ -454,17 +454,23 @@ nav ul {
 
 .arrows {
   display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.arrows img:first-of-type {
+  margin-right: 1rem;
 }
 
 .test-text {
   background: rgba(155, 81, 224, 0.3);
-  padding: 115px 340px 107px 190px;
+  padding: 115px 290px 107px 190px;
 }
 
 .test-image {
   grid-column: 7 / -1;
   grid-row: 2 / 5;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .test-image img {

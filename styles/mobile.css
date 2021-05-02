@@ -183,14 +183,7 @@ nav img {
 
 /* testimonials */
 .test-container {
-  margin-top: 4rem;
-  margin-bottom: 15rem;
-}
-
-.test-head {
-  width: 90%;
-  margin: auto;
-  font-size: 2rem;
+  display: none;
 }
 
 /* ------------------------------------------------------------------- 

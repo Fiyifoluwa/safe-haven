@@ -4,7 +4,7 @@ body {
       rgba(209, 209, 209, 0.5)
     ),
     url("../images/img/hero.png");
-  height: 77vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -16,6 +16,8 @@ body {
 
 nav {
   height: 8rem;
+  width: 80%;
+  margin: auto;
 }
 
 .nav-items,
@@ -23,19 +25,15 @@ nav {
   display: none;
 }
 
-nav img {
-  margin-left: 3.375rem;
-}
-
 /* Header */
 .header-container {
-  margin: 4rem auto auto auto;
+  margin: 3rem auto auto auto;
   width: 90%;
 }
 
 .header-content div {
-  width: 25rem;
-  height: 8rem;
+  width: auto;
+  height: auto;
   font-size: 2.3rem;
   line-height: 2.5rem;
   margin-bottom: 1rem;
@@ -228,6 +226,7 @@ nav img {
 .blog-card img {
   padding-top: 0.5625rem;
   padding-bottom: 0.5625rem;
+  width: 94.2%;
 }
 
 .blog-title {

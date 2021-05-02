@@ -99,6 +99,7 @@ nav img {
 .listing-card {
   width: 90vw;
   height: 22.5rem;
+  margin-bottom: 1rem;
 }
 
 .listing-card .listing-img {
@@ -207,39 +208,31 @@ nav img {
 
 .blog-card {
   width: 90vw;
+  margin-bottom: 1rem;
+  width: auto;
+  height: auto;
 }
 
-.listing-card .listing-img {
-  width: 90%;
-  padding-bottom: 0.6rem;
-}
-
-.tags p {
+.tag-property {
   font-size: 0.6rem;
-  margin-right: 0.8rem;
 }
 
-.title p {
-  font-size: 0.9rem;
+.tag-housing {
+  font-size: 0.6rem;
 }
 
-.title a {
-  font-size: 0.65rem;
-}
-
-.address p,
-.phone p {
-  font-size: 0.65rem;
+.tag-mortgage {
+  font-size: 0.6rem;
 }
 
 .blog-card img {
   padding-top: 0.5625rem;
-  padding-bottom: 0.9375rem;
+  padding-bottom: 0.5625rem;
 }
 
 .blog-title {
-  font-size: 1.0625rem;
-  line-height: 1.4375rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
   text-align: left;
   margin-left: 0.5625rem;
   color: #25033e;
@@ -252,9 +245,11 @@ nav img {
 }
 
 .blog-deets div p:last-of-type {
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  color: #665275;
+  font-size: 0.7rem;
+}
+
+.do-not-show-mob {
+  display: none;
 }
 
 /* ------------------------------------------------------------------- 

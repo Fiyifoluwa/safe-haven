@@ -99,7 +99,7 @@ nav img {
 .listing-card {
   width: 90vw;
   height: 22.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .listing-card .listing-img {
@@ -127,7 +127,7 @@ nav img {
 
 /* about */
 .about-container {
-  margin-top: -3rem;
+  margin-top: 3rem;
   background: url("/images/icons/subtract.svg");
   background-repeat: no-repeat;
   background-position: right top;
@@ -208,7 +208,7 @@ nav img {
 
 .blog-card {
   width: 90vw;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   width: auto;
   height: auto;
 }

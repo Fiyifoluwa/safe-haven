@@ -1,573 +1,509 @@
-body {
-  background: linear-gradient(
-      rgba(209, 209, 209, 0.5),
-      rgba(209, 209, 209, 0.5)
-    ),
-    url("../images/img/hero.png");
-  height: 80vh;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
+@media (max-width: 500px) {
+  body {
+    background: linear-gradient(
+        rgba(209, 209, 209, 0.5),
+        rgba(209, 209, 209, 0.5)
+      ),
+      url("../images/img/hero.png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
 
-/*
+  /*
   Site nav
 */
 
-nav {
-  height: 8rem;
-  width: 80%;
-  margin: auto;
-}
-
-.nav-items,
-.nav-cta {
-  display: none;
-}
-
-/* Header */
-.header-container {
-  margin: 3rem auto auto auto;
-  width: 90%;
-}
-
-.header-content div {
-  width: auto;
-  height: auto;
-  font-size: 2.3rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.header-content p {
-  margin-top: 0;
-  font-size: 1rem;
-  color: #665275;
-}
-
-.filters {
-  margin: 2rem auto 1.2rem auto;
-  flex-direction: column;
-  width: 90%;
-  padding-bottom: 1.5rem;
-  align-items: flex-start;
-}
-
-.filters div {
-  align-self: center;
-  font-size: 1rem;
-}
-
-.filters li {
-  font-size: 1rem;
-}
-
-.filters li:not(:nth-last-child(1)) {
-  border-right: none;
-}
-
-.filters ul {
-  flex-direction: column;
-  flex: 1;
-  border-radius: 2.5rem;
-  margin-left: 3rem;
-}
-
-/* listings */
-
-.listings-container {
-  width: 90%;
-  margin: 4rem auto;
-}
-
-.listings-head h1 {
-  font-size: 2rem;
-}
-
-.listings-head a {
-  font-size: 0.9rem;
-}
-
-.listings-grid {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.listing-card {
-  width: 90vw;
-  height: 22.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.listing-card .listing-img {
-  width: 90%;
-  padding-bottom: 0.6rem;
-}
-
-.tags p {
-  font-size: 0.6rem;
-  margin-right: 0.8rem;
-}
-
-.title p {
-  font-size: 0.9rem;
-}
-
-.title a {
-  font-size: 0.65rem;
-}
-
-.address p,
-.phone p {
-  font-size: 0.65rem;
-}
-
-/* about */
-.about-container {
-  margin-top: 3rem;
-  background: url("/images/icons/subtract.svg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
-  padding-bottom: 2rem;
-}
-
-.about-head {
-  width: 90%;
-  margin: auto;
-  font-size: 2rem;
-}
-
-.about {
-  flex-direction: column;
-  width: 90%;
-  margin: auto;
-}
-
-.about-grid {
-  display: none;
-}
-
-.about-info,
-.about-metrics p {
-  font-size: 0.9rem;
-  line-height: 1.5rem;
-}
-
-.first-p {
-  width: auto;
-  height: auto;
-  margin-bottom: 1.5rem;
-}
-
-.second-p {
-  width: auto;
-  height: auto;
-}
-
-.about-metrics {
-  justify-content: space-around;
-  margin-top: 2.5rem;
-  margin-right: 0.5rem;
-}
-
-.about-metrics .numbers {
-  font-size: 2.8rem;
-  margin-bottom: 0.9rem;
-  line-height: 3rem;
-}
-
-/* testimonials */
-.test-container {
-  display: none;
-}
-
-/* blog posts */
-.blog-container {
-  margin-top: 1rem;
-  width: 90%;
-  margin: 4rem auto;
-}
-
-.blog-head h1 {
-  font-size: 2rem;
-}
-
-.blog-head a {
-  font-size: 0.9rem;
-}
-
-.blog-grid {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.blog-card {
-  width: 90vw;
-  margin-bottom: 1.5rem;
-  width: auto;
-  height: auto;
-}
-
-.tag-property {
-  font-size: 0.6rem;
-}
-
-.tag-housing {
-  font-size: 0.6rem;
-}
-
-.tag-mortgage {
-  font-size: 0.6rem;
-}
-
-.blog-card img {
-  padding-top: 0.5625rem;
-  padding-bottom: 0.5625rem;
-  width: 94.2%;
-}
-
-.blog-title {
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-  text-align: left;
-  margin-left: 0.5625rem;
-  color: #25033e;
-}
-
-.blog-deets div {
-  display: flex;
-  justify-content: space-between;
-  margin: 0.5625rem 0.6875rem;
-}
-
-.blog-deets div p:last-of-type {
-  font-size: 0.7rem;
-}
-
-.do-not-show-mob {
-  display: none;
-}
-
-/* mobile download */
-
-.mobile {
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-
-  background: #7800d2;
-  width: auto;
-  height: auto;
-  width: 90%;
-  border-radius: 30px;
-}
-
-.mobile div {
-  margin: auto;
-  padding: 1rem;
-}
-
-.mobile div h1 {
-  font-size: 2.4rem;
-  line-height: 2.8rem;
-  margin: 1rem auto auto 1rem;
-}
-
-.mobile div p {
-  font-size: 0.9rem;
-  margin: 1rem auto auto 1rem;
-}
-
-.mobile div img {
-  margin-left: 1rem;
-}
-
-/* footer */
-.footer {
-  width: 90%;
-  margin: 3rem auto auto auto;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
-}
-
-.footer div {
-  margin: auto;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.footer .head {
-  font-weight: bold;
-  font-size: 1rem;
-  color: #25033e;
-  margin-bottom: 1.5rem;
-  margin-top: 0.7rem;
-}
-
-.footer ul {
-  margin: auto;
-  width: 90%;
-  border-top: 0.0313rem solid #e0e0e0;
-}
-
-.footer img {
-  margin-top: 1rem;
-}
-
-.footer div li {
-  margin-bottom: 0.5rem;
-}
-
-.footer li a {
-  font-size: 0.8rem;
-  line-height: 1rem;
-
-  color: #665275;
-}
-
-.footer-footer {
-  margin-top: 2.5rem;
-  font-size: 0.7rem;
-  color: #c7afd8;
-}
-
-.footer-footer a {
-  font-size: 0.7rem;
-}
-
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle
- * ------------------------------------------------------------------- */
-
-.site-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  z-index: 3;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.site-nav__menu {
-  grid-area: menu;
-}
-
-.site-nav__link {
-  padding: 1rem;
-  display: block;
-}
-
-@media (max-width: 49.999rem) {
-  .site-nav {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-  }
-
-  .site-nav__menu {
-    display: none;
-    flex-direction: column;
+  nav {
+    height: 8rem;
+    width: 80%;
     margin: auto;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    animation-duration: 0.2s;
-    animation-timing-function: ease-in-out;
   }
 
-  .site-nav__link {
-    font-size: calc(1.2rem + 3vw);
-  }
-
-  .site-nav--is-open {
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  .site-nav--is-open .site-nav__menu {
-    display: flex;
-  }
-}
-
-@media (min-width: 50rem) {
-  .site-nav__menu {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-  }
-}
-
-.fade-in {
-  animation-fill-mode: forwards;
-  animation-name: fade;
-}
-
-.fade-out {
-  animation-fill-mode: backwards;
-  animation-name: fade;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-/*
-  Curtain
-*/
-
-.site-nav__curtain {
-  visibility: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 0;
-  background: var(--brown-darker);
-  border-radius: 50%;
-  transform: translateY(100%) scale(0);
-  animation-duration: 0.6s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-.curtain-up {
-  animation-name: curtainUp;
-}
-
-.curtain-down {
-  animation-name: curtainDown;
-}
-
-@media (min-width: 50rem) {
-  .site-nav__curtain {
-    visibility: hidden;
-    transform: translateY(100%) scale(0) !important;
-  }
-}
-
-@keyframes curtainUp {
-  0% {
-    border-radius: 50%;
-    transform: translateY(100%) scale(1);
-    visibility: visible;
-    opacity: 1;
-  }
-  50% {
-    border-radius: 50%;
-  }
-  100% {
-    transform: translateY(0%) scale(3, 1);
-    visibility: visible;
-    opacity: 1;
-    border-radius: 0;
-  }
-}
-
-@keyframes curtainDown {
-  0% {
-    border-radius: 0;
-    transform: translateY(0%) scale(3, 1);
-    opacity: 1;
-    visibility: visible;
-  }
-  50% {
-    opacity: 1;
-    visibility: visible;
-    border-radius: 50%;
-  }
-  99% {
-    transform: translateY(100%) scale(0);
-    visibility: visible;
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(100%) scale(0);
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-/*
-  Menu button
-*/
-
-.menu-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  padding: 0.5rem 0 0.5rem 2rem;
-  color: var(--lightest);
-  position: sticky;
-  left: 0;
-  top: 0;
-  align-self: normal;
-  justify-self: start;
-  z-index: 10;
-  grid-area: menuButton;
-}
-
-.menu-button:active {
-  transform: translateY(-0.2rem);
-}
-
-@media (min-width: 50rem) {
-  .menu-button {
+  .nav-items,
+  .nav-cta {
     display: none;
   }
+
+  /* Header */
+  .header-container {
+    margin: 3rem auto auto auto;
+    width: 90%;
+  }
+
+  .header-content div {
+    width: auto;
+    height: auto;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .header-content p {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #665275;
+  }
+
+  .filters {
+    margin: 2rem auto 1.2rem auto;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .filters div {
+    align-self: center;
+    font-size: 1rem;
+  }
+
+  .filters li {
+    font-size: 1rem;
+  }
+
+  .filters li:not(:nth-last-child(1)) {
+    border-right: none;
+  }
+
+  .filters ul {
+    flex-direction: column;
+    flex: 1;
+    border-radius: 2.5rem;
+    margin-left: 3rem;
+  }
+
+  /* listings */
+
+  .listings-container {
+    width: 90%;
+    margin: 4rem auto;
+  }
+
+  .listings-head h1 {
+    font-size: 2rem;
+  }
+
+  .listings-head a {
+    font-size: 0.9rem;
+  }
+
+  .listings-grid {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .listing-card {
+    width: 90vw;
+    height: 22.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .listing-card .listing-img {
+    width: 90%;
+    padding-bottom: 0.6rem;
+  }
+
+  .tags p {
+    font-size: 0.6rem;
+    margin-right: 0.8rem;
+  }
+
+  .title p {
+    font-size: 0.9rem;
+  }
+
+  .title a {
+    font-size: 0.65rem;
+  }
+
+  .address p,
+  .phone p {
+    font-size: 0.65rem;
+  }
+
+  /* about */
+  .about-container {
+    margin-top: 3rem;
+    background: url("/images/icons/subtract.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    padding-bottom: 2rem;
+  }
+
+  .about-head {
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+  }
+
+  .about {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-grid {
+    display: none;
+  }
+
+  .about-info,
+  .about-metrics p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .first-p {
+    width: auto;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .second-p {
+    width: auto;
+    height: auto;
+  }
+
+  .about-metrics {
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .about-metrics .numbers {
+    font-size: 2.8rem;
+    margin-bottom: 0.9rem;
+    line-height: 3rem;
+  }
+
+  /* testimonials */
+  .test-container {
+    display: none;
+  }
+
+  /* blog posts */
+  .blog-container {
+    margin-top: 1rem;
+    width: 90%;
+    margin: 4rem auto;
+  }
+
+  .blog-head h1 {
+    font-size: 2rem;
+  }
+
+  .blog-head a {
+    font-size: 0.9rem;
+  }
+
+  .blog-grid {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-card {
+    width: 90vw;
+    margin-bottom: 1.5rem;
+    width: auto;
+    height: auto;
+  }
+
+  .tag-property {
+    font-size: 0.6rem;
+  }
+
+  .tag-housing {
+    font-size: 0.6rem;
+  }
+
+  .tag-mortgage {
+    font-size: 0.6rem;
+  }
+
+  .blog-card img {
+    padding-top: 0.5625rem;
+    padding-bottom: 0.5625rem;
+    width: 94.2%;
+  }
+
+  .blog-title {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: left;
+    margin-left: 0.5625rem;
+    color: #25033e;
+  }
+
+  .blog-deets div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5625rem 0.6875rem;
+  }
+
+  .blog-deets div p:last-of-type {
+    font-size: 0.7rem;
+  }
+
+  .do-not-show-mob {
+    display: none;
+  }
+
+  /* mobile download */
+
+  .mobile {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
+    background: #7800d2;
+    width: auto;
+    height: auto;
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .mobile div {
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .mobile div h1 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin: 1rem auto auto 1rem;
+  }
+
+  .mobile div p {
+    font-size: 0.9rem;
+    margin: 1rem auto auto 1rem;
+  }
+
+  .mobile div img {
+    margin-left: 1rem;
+  }
+
+  /* footer */
+  .footer {
+    width: 90%;
+    margin: 3rem auto auto auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .footer div {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer .head {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #25033e;
+    margin-bottom: 1.5rem;
+    margin-top: 0.7rem;
+  }
+
+  .footer ul {
+    margin: auto;
+    width: 90%;
+    border-top: 0.0313rem solid #e0e0e0;
+  }
+
+  .footer img {
+    margin-top: 1rem;
+  }
+
+  .footer div li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer li a {
+    font-size: 0.8rem;
+    line-height: 1rem;
+
+    color: #665275;
+  }
+
+  .footer-footer {
+    margin-top: 2.5rem;
+    font-size: 0.7rem;
+    color: #c7afd8;
+  }
+
+  .footer-footer a {
+    font-size: 0.7rem;
+  }
 }
 
-.menu-button__lines {
-  display: grid;
-  gap: 5px;
-  transition: all 0.2s ease;
-  position: absolute;
-  left: 0;
-}
+@media (min-width: 600px) {
+  nav {
+    height: 6rem;
+    width: 90%;
+    margin: auto;
+  }
 
-.menu-button__lines--open {
-  gap: 0;
-}
+  nav .nav-items {
+    display: none;
+  }
 
-.menu-button__line {
-  display: block;
-  transition: 0.2s ease;
-  content: "";
-  width: 1.2rem;
-  height: 2px;
-  background-color: var(--lightest);
-  transform-origin: center;
-}
+  .nav-items li a,
+  .nav-cta li a {
+    font-size: 0.9rem;
+  }
 
-.menu-button:hover .menu-button__lines {
-  gap: 8px;
-}
+  .nav-cta li:last-of-type {
+    padding: 1.25rem 3rem;
+  }
 
-.menu-button__lines--open .menu-button__line {
-  grid-row-start: 1;
-  grid-column-start: 1;
-  transform: rotate(45deg) scale(1.6);
-}
+  /* Header */
+  .header-container {
+    margin: 2rem auto auto auto;
+    width: 90%;
+  }
 
-.menu-button__lines--open .menu-button__line:nth-child(3) {
-  transform: rotate(-45deg) scale(1.6);
+  .header-content div {
+    /* width: auto; */
+    height: auto;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .header-content p {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #665275;
+  }
+
+  .filters {
+    margin: 2rem auto 1rem auto;
+    width: 95%;
+    justify-content: space-between;
+  }
+
+  .filters ul {
+    padding: 1rem auto;
+  }
+
+  .filters li {
+    display: inline-flex;
+    padding-right: 0.6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .filters li a {
+    font-size: 0.7rem;
+  }
+
+  .filters li:not(:first-child) {
+    padding-left: 0.6rem;
+  }
+
+  .filters li:first-of-type {
+    padding-left: 0.7rem;
+  }
+
+  .filters h2 {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 1.45rem 3rem;
+  }
+
+  /* listings */
+  .listings-container {
+    margin: 12rem auto auto auto;
+    width: 90%;
+  }
+
+  .listings-head h1 {
+    font-size: 2rem;
+  }
+
+  .listings-head a {
+    font-size: 0.9rem;
+  }
+
+  .listings-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.7rem;
+    justify-items: center;
+  }
+
+  .listing-card {
+    max-width: 300px;
+    height: auto;
+    border: 0.0313rem solid #afafaf;
+    border-radius: 0.3125rem;
+    background: #fff;
+    position: relative;
+    text-align: center;
+  }
+
+  .listing-card img {
+    padding-top: 1.0625rem;
+    padding-bottom: 0.9375rem;
+  }
+
+  /*
+    .listings-container {
+    width: 90%;
+    margin: 4rem auto;
+  }
+
+  .listings-head h1 {
+    font-size: 2rem;
+  }
+
+  .listings-head a {
+    font-size: 0.9rem;
+  }
+
+  .listings-grid {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .listing-card {
+    width: 90vw;
+    height: 22.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .listing-card .listing-img {
+    width: 90%;
+    padding-bottom: 0.6rem;
+  }
+
+  .tags p {
+    font-size: 0.6rem;
+    margin-right: 0.8rem;
+  }
+
+  .title p {
+    font-size: 0.9rem;
+  }
+
+  .title a {
+    font-size: 0.65rem;
+  }
+
+  .address p,
+  .phone p {
+    font-size: 0.65rem;
+  }
+*/
 }

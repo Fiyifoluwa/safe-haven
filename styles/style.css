@@ -582,13 +582,17 @@ nav ul {
 
 .mobile {
   margin-top: 9.6875rem;
-  margin-bottom: 13.125rem;
-  width: 81.25rem;
-  height: 22.5rem;
+  margin-bottom: 10rem;
+  padding-bottom: 2rem;
+  /* max-width: 81.25rem; */
+  width: auto;
+  border-radius: 4rem;
+  /* max-height: 22.5rem; */
+  height: auto;
   background: url(../images/mobile/bg-banner.png);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .mobile div {

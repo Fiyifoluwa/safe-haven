@@ -4,53 +4,6 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-        <div className="nav-container">
-          <div className="wrapper">
-            <nav>
-              <img
-                src="./images/icons/subtract-logo.svg"
-                alt="safe haven home"
-              />
-
-              <ul className="nav-items">
-                <li>
-                  <a href="#" className="current">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Categories</a>
-                  <img src="./images/icons/arrow-down.svg" alt="" />
-                </li>
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Agents</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-              </ul>
-
-              <ul className="nav-cta">
-                <li>
-                  <a className="login-btn" href="#">
-                    LOG IN
-                  </a>
-                </li>
-                <li>
-                  <a className="signup-btn" href="#">
-                    SIGN UP
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
         {/* header */}
         <section className="header-container">
           <div className="wrapper">
@@ -65,23 +18,23 @@ class Landing extends React.Component {
               <div className="filters">
                 <ul>
                   <li>
-                    <a href="#">Sale</a>
+                    <a href>Sale</a>
                     <img src="./images/icons/arrow-down.svg" alt="" />
                   </li>
                   <li>
-                    <a href="#">Type</a>
+                    <a href>Type</a>
                     <img src="./images/icons/arrow-down.svg" alt="" />
                   </li>
                   <li>
-                    <a href="#">Bedrooms</a>
+                    <a href>Bedrooms</a>
                     <img src="./images/icons/arrow-down.svg" alt="" />
                   </li>
                   <li>
-                    <a href="#">Min Price</a>
+                    <a href>Min Price</a>
                     <img src="./images/icons/arrow-down.svg" alt="" />
                   </li>
                   <li>
-                    <a href="#">Max Price</a>
+                    <a href>Max Price</a>
                     <img src="./images/icons/arrow-down.svg" alt="" />
                   </li>
                 </ul>
@@ -99,7 +52,7 @@ class Landing extends React.Component {
             <div className="listings">
               <div className="listings-head">
                 <h1>New Listings</h1>
-                <a href="#">View all listings</a>
+                <a href>View all listings</a>
               </div>
 
               <div className="listings-grid">
@@ -119,7 +72,7 @@ class Landing extends React.Component {
                   <div className="listing-deets">
                     <div className="title">
                       <p>6 bedroom detached duplex</p>
-                      <a href="#">View Details</a>
+                      <a href>View Details</a>
                     </div>
                     <div className="add-phone">
                       <div className="address">
@@ -153,7 +106,7 @@ class Landing extends React.Component {
                   <div className="listing-deets">
                     <div className="title">
                       <p>6 bedroom detached duplex</p>
-                      <a href="#">View Details</a>
+                      <a href>View Details</a>
                     </div>
                     <div className="add-phone">
                       <div className="address">
@@ -187,7 +140,7 @@ class Landing extends React.Component {
                   <div className="listing-deets">
                     <div className="title">
                       <p>6 bedroom detached duplex</p>
-                      <a href="#">View Details</a>
+                      <a href>View Details</a>
                     </div>
                     <div className="add-phone">
                       <div className="address">
@@ -221,7 +174,7 @@ class Landing extends React.Component {
                   <div className="listing-deets">
                     <div className="title">
                       <p>6 bedroom detached duplex</p>
-                      <a href="#">View Details</a>
+                      <a href>View Details</a>
                     </div>
                     <div className="add-phone">
                       <div className="address">
@@ -317,15 +270,15 @@ class Landing extends React.Component {
                     <h4>Jejelaye Surulere</h4>
                     <p>LAGOS, NIGERIA</p>
                   </div>
-                  <a className="story-btn" href="#">
+                  <a className="story-btn" href>
                     READ STORY
                   </a>
                 </div>
                 <div className="arrows">
-                  <a href="#">
+                  <a href>
                     <img src="./images/icons/left-arrow.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href>
                     <img src="./images/icons/right-arrow-long.svg" alt="" />
                   </a>
                 </div>
@@ -341,7 +294,7 @@ class Landing extends React.Component {
         <section className="blog-container wrapper">
           <div className="blog-head">
             <h1>Blog posts</h1>
-            <a href="#">View all blog posts</a>
+            <a href>View all blog posts</a>
           </div>
 
           <div className="blog-grid">
@@ -426,80 +379,14 @@ class Landing extends React.Component {
           <div>
             <h1>We are on your mobile phones</h1>
             <p>Download the Safe Haven app!</p>
-            <a href="#">
+            <a href>
               <img src="./images/mobile/app-store.png" alt="" />
             </a>
-            <a href="#">
+            <a href>
               <img src="./images/mobile/google-play.png" alt="" />
             </a>
           </div>
         </section>
-        {/* footer */}
-        <section className="footer wrapper">
-          <a href="#">
-            <img src="./images/icons/subtract-logo.svg" alt="" />
-          </a>
-          <div>
-            <ul>
-              <li className="head">Safe Haven</li>
-              <li>
-                <a href="#">Why Safehaven?</a>
-              </li>
-              <li>
-                <a href="#">For sale</a>
-              </li>
-              <li>
-                <a href="#">For rent</a>
-              </li>
-            </ul>
-            <ul>
-              <li className="head">Legal</li>
-              <li>
-                <a href="#">Terms and Conditions</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#">Cookies</a>
-              </li>
-            </ul>
-            <ul>
-              <li className="head">Get in touch</li>
-              <li>
-                <a href="mailto:info@safehaven.com">info@safehaven.com</a>
-              </li>
-              <li>
-                <a href="tel:+2347056824910">+2347056824910</a>
-              </li>
-            </ul>
-            <ul>
-              <li className="head">Resources</li>
-              <li>
-                <a href="#">Become an agent</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-            </ul>
-            <ul>
-              <li className="head">Follow us</li>
-              <li>
-                <a href="https://twitter.com">Twitter</a>
-              </li>
-              <li>
-                <a href="https://facebook.com">Facebook</a>
-              </li>
-              <li>
-                <a href="https://instagram.com">Instagram</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <div className="footer-footer wrapper">
-          2021 Safe Haven by <a href="https://twitter.com/_thefeyi_">Feyi</a>{" "}
-          and <a href="https://github.com/Fiyifoluwa">Fiyi</a>
-        </div>
       </div>
     );
   }

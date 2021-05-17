@@ -73,8 +73,8 @@ function mobileNavToggler() {
     },
 
     init() {
-      menuButton.addEventListener("click", this);
-      navCurtain.addEventListener("animationend", this);
+      // menuButton.addEventListener("click", this);
+      // navCurtain.addEventListener("animationend", this);
     },
   };
 }
